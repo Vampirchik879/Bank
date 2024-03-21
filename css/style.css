@@ -1,0 +1,1673 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body,
+h1,
+a {
+    margin: 0;
+}
+a {
+    transition-duration: 500ms;
+}
+.wrapper {
+    overflow: hidden;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+   
+}
+html {
+  scroll-behavior: smooth;
+}
+.header {
+    height: 970px;
+    width: 100%;
+    background-image: url('../img/man.jpg');
+}
+.header__head {
+    display: flex;
+    margin-left: 15%;
+   
+}
+.header__head-left {
+    display: block;
+    padding-top: 11px;
+}
+.header__head-left-social-ista {
+    margin-left: 20px;
+}
+.header__head-left-social-face-logo {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+.header__head-left-social-face {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+.header__head-left-social-ista {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+.header__head-left-social-insta-logo {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+.header__head-left-logotipe-logo {
+    margin-top: 33px;
+}
+.header__head-right {
+    display: block;
+
+}
+.header__head-right-contacts {
+    display: flex;
+    margin-left: 600px;
+}
+.header__head-right-contacts-number {
+    font-weight: 400;
+    margin-right: 20px;
+    margin-top: 16px;
+}
+.header__head-right-contacts-button {
+    background: #3CE800;
+    width: 208px;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 900;
+}
+.header__head-right-nav {
+    display: flex;
+    margin-top: 35px;
+   margin-left: 0px;
+   margin-left: 558px;
+}
+.header__head-right-nav-nav1 {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.header__head-right-nav-nav2 {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: white; 
+    margin-left: 40px;
+    cursor: pointer;
+}
+.header__head-right-nav-nav3 {
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+
+.header__head-right-nav-nav1:hover {
+    color: #3ce800;
+}
+
+.header__head-right-nav-nav2:hover {
+    color: #3ce800;
+}
+.header__head-right-nav-nav3:hover {
+    color: #3ce800;
+}
+
+
+
+
+
+
+.header__body {
+    display: block;
+    margin-left: 15%;
+    margin-top: 191px;
+}
+.header__body-information {
+}
+.header__body-information-heading {
+    font-size: 60px;
+    color: white;
+}
+.header__body-information-heading-span {
+    color: #3CE800;
+}
+.header__body-information-description {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+.header__body-button {
+    border-radius: 5px;
+    width: 300px;
+    height: 68px;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(315deg, #3ce800 0%, #00b1d8 100%);
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.header__arrow {
+    background: none;
+    border: none;
+    border-radius: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 195px;
+}
+
+.main {
+    margin-top: 100px;
+    
+}
+.main__section_credit {
+    display: flex;
+    margin-left: 15%;
+}
+.main__section_credit-request {
+    display: block;
+}
+.main__section_credit-request-title {
+    color: #3D3D3D;
+    font-size: 48px;
+    font-weight: 700;
+}
+.main__section_credit-request-form-text {
+    color: #3D3D3D;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+.main__section_credit-request-form-text-formular {
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.main__section_credit-request-form-text-formular-example1-choose {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 630px;
+    height: 68px;
+    box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    background: #fbfbfb;
+    margin-top: 10px;
+    padding-left: 30px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url("../img/arr.svg") no-repeat right center;
+    outline: 0;
+    background-position: 586px;
+    color: #3D3D3D;
+}
+
+.main__section_credit-request-form-text-formular-example1-choose-var1 {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main__section_credit-request-form-text-formular-example2 {
+    margin-top: 20px;
+}
+.main__section_credit-request-form-text-formular-example2-numer {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 630px;
+    height: 68px;
+    box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    background: #fbfbfb;
+    margin-top: 10px;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main__section_credit-request-form-text-formular-example2-slider {
+    width: 630px;
+    height: 20px;
+}
+.main__section_credit-request-form-text-formular-example2-numer-numerok {
+    height: 15px;
+    margin-left: 30px;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+input[type=range]  {
+    background: #3CE800;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 2px;
+    margin-left: 0px;
+}
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    background-image: url('../img/Group 5.png');
+    
+}
+.main__section_credit-request-form-text-formular-example3 {
+    margin-top: 20px;
+}
+.main__section_credit-request-form-text-formular-example3-years {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 630px;
+    height: 68px;
+    box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    background: #fbfbfb;
+    margin-top: 10px;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main__section_credit-request-form-text-formular-example3-slider {
+    width: 630px;
+    height: 20px;
+}
+.main__section_credit-request-form-text-formular-example3-years-number {
+    height: 15px;
+    margin-left: 30px;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+input[type=range]  {
+    background: #3CE800;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 2px;
+    margin-left: 0px;
+}
+input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    background-image: url('../img/Group 5.png');
+    
+}
+.main__section_credit-bank {
+    margin-left: 110px;
+    color: #3d3d3d;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 520px;
+    height: 658px;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #fbfbfb;
+   
+}
+.main__section_credit-bank-text {  
+    font-size: 24px;
+    font-weight: 700; 
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.main__section_credit-bank-line {
+    width: 400px;
+    height: 1px;
+    background: #E5E5E5;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 40px;
+}
+.main__section_credit-bank-partners {
+    display: flex;
+    margin-top: 45px;
+    margin-left: 60px;
+}
+.main__section_credit-bank-partners-numer1 {
+    display: block;
+    height: 233px;
+    width: 175px;
+}
+.main__section_credit-bank-partners-numer1-tinkof {
+    margin-top: 10px;
+}
+.main__section_credit-bank-partners-numer1-vtb {
+    margin-top: 10px;
+}
+.main__section_credit-bank-partners-numer2 {
+    display: block;
+    width: 213px;
+    height: 231px;
+    margin-left: 27px;
+}
+.main__section_credit-bank-partners-numer2-otpbank {
+    margin-top: 38px;
+}
+.main__section_credit-bank-partners-numer2-openbank {
+    margin-top: 42px;
+}
+.main__section_credit-bank-partners-text {
+    font-size: 16px;
+    font-weight: 400; 
+    margin-left: 220px;
+    margin-top: 18px;
+    
+}
+.main__section_credit-bank-request-button {
+    border-radius: 5px;
+    width: 400px;
+    height: 68px;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(315deg, #3ce800 0%, #00b1d8 100%);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700; 
+    
+}
+.main__section_credit-bank-request-button1 {
+    border-radius: 5px;
+    width: 400px;
+    height: 68px;
+    position: relative;
+    left: 10%;
+    transform: translate(-50%, 0);
+}
+
+.main__section_credit-bank-request-text1 {
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 14px;
+    font-weight: 400; 
+    color: #3D3D3D;
+}
+.main__section_credit-bank-request-text1-link {
+    color: #3CE800;
+}
+
+
+
+
+
+
+
+
+.main__privilege {
+    margin-top: 171px;
+    margin-left: 15%;
+
+}
+.main__privilege-title {
+    color: #3d3d3d;
+    font-size: 48px;
+    font-weight: 700; 
+    text-align: center;
+    margin-right: 15%;
+}
+.main__privilege-title-text {
+    color: #3CE800;
+}
+.main__privilege-all {
+    display: block;
+    margin-top: 60px;
+}
+.main__privilege-all-up {
+    display: flex;
+}
+.main__privilege-all-up-card1 {
+    display: flex;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #fbfbfb;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 410px;
+    height: 190px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.main__privilege-all-up-card1-text {
+    display: block;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.main__privilege-all-up-card1-logo1 {
+    width: 60px;
+    height: 60px;
+}
+.main__privilege-all-up-card1-text1 {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.main__privilege-all-up-card1-description1 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400; 
+}
+.main__privilege-all-up-card2 {
+    margin-left: 30px;
+    display: flex;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #fbfbfb;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 410px;
+    height: 190px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.main__privilege-all-up-card2-logo2 {
+    width: 60px;
+    height: 60px;
+}
+.main__privilege-all-up-card2-text {
+    display: block;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.main__privilege-all-up-card2-text2 {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.main__privilege-all-up-card2-description2 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    width: 230px;
+}
+.main__privilege-all-up-card3 {
+    margin-left: 30px;
+    display: flex;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #fbfbfb;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 410px;
+    height: 190px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.main__privilege-all-up-card3-logo3 {
+    width: 60px;
+    height: 60px;
+}
+.main__privilege-all-up-card3-text {
+    display: block;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.main__privilege-all-up-card3-text3 {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.main__privilege-all-up-card3-description3 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main__privilege-all-bottom {
+    display: flex;
+    margin-top: 30px;
+}
+.main__privilege-all-bottom-card4 {
+    display: flex;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #fbfbfb;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 410px;
+    height: 190px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.main__privilege-all-bottom-card4-logo4 {
+    width: 60px;
+    height: 60px;
+}
+.main__privilege-all-bottom-card4-text {
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.main__privilege-all-bottom-card4-text4 {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.main__privilege-all-bottom-card4-description4 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main__privilege-all-bottom-card5 {
+    margin-left: 30px;
+    display: flex;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #fbfbfb;
+    border: 2px solid #fff;
+    width: 410px;
+    height: 190px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.main__privilege-all-bottom-card5-logo5 {
+    width: 60px;
+    height: 60px;
+}
+.main__privilege-all-bottom-card5-text {
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.main__privilege-all-bottom-card5-text5 {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.main__privilege-all-bottom-card5-description5 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main__privilege-all-bottom-card6 {
+    margin-left: 30px;
+    display: flex;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 0.1);
+    background: #fbfbfb;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 410px;
+    height: 190px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.main__privilege-all-bottom-card6-logo6 {
+    width: 60px;
+    height: 60px;
+}
+.main__privilege-all-bottom-card6-text {
+    margin-left: 20px;
+    margin-top: -15px;
+}
+.main__privilege-all-bottom-card6-text6 {
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.main__privilege-all-bottom-card6-description6 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+.main__steps {
+    margin-top: 172px;
+    margin-left: 20%;
+}
+.main__steps-title {
+    color: #3d3d3d;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 250px;
+}
+.main__obch {
+    margin-top: 60px;
+    display: flex;
+}
+.main__steps-ring {
+    display: block;
+    width: 237px;
+    height: 209px;
+}
+.main__steps-ring-title {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 700;
+}
+.main__steps-ring-title-span {
+    color: #3ce800;
+    font-size: 20px;
+}
+.main__steps-ring-text {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 28px;
+}
+.main__steps-ring-text-span {
+    color: #3D3D3D;
+    font-weight: 700;
+}
+.main__steps-line1 {
+    margin-left: 132px;
+    background-image: url(../img/Union.svg);
+    width: 10.76px;
+    height: 215px;
+}
+.main__steps-chat {
+    margin-left: 60px;
+    display: block;
+    width: 370px;
+    height: 209px;
+}
+.main__steps-chat-title {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 700;
+}
+.main__steps-chat-text {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 28px;
+}
+.main__steps-chat-title-span {
+    color: #3ce800;
+    font-size: 20px;
+}
+.main__steps-line2 {
+    margin-left: 79px;
+    background-image: url(../img/Union.svg);
+    width: 10.76px;
+    height: 215px;
+}
+.main__steps-contract {
+    margin-left: 60px;
+    display: block;
+    width: 325px;
+    height: 209px;
+}
+.main__steps-contract-title {
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 700;
+}
+.main__steps-contract-text {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 28px;
+}
+.main__steps-contract-title-span {
+    color: #3ce800;
+    font-size: 20px;
+} 
+
+
+
+
+.main__consultation {
+    margin-top: 80px;
+    transition: all 2s;
+}
+.main__consultation-img {
+    background-image: url(../img/girl.png);
+    width: 100%;
+    height: 622px;
+    padding-left: 15%;
+    padding-top: 80px;
+}
+
+.main__consultation-tutorial-wording-heading {
+    font-weight: 700;
+    font-size: 30px;
+}
+.main__consultation-tutorial-wording-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+}
+.main__consultation-tutorial-form {
+    margin-top: 40px;
+}
+.main__consultation-tutorial-form-name {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 630px;
+    height: 68px;
+    box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    background: #fbfbfb;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.main__consultation-tutorial-form-number {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 630px;
+    height: 68px;
+    box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    background: #fbfbfb;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.main__consultation-tutorial-form-email {
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    width: 630px;
+    height: 68px;
+    box-shadow: inset 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    background: #fbfbfb;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.main__consultation-tutorial-form-btn {
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 630px;
+    height: 68px;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(315deg, #3ce800 0%, #00b1d8 100%);
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+
+
+.main__difficulties {
+    
+    margin-top: 80px;
+}
+.main__difficulties-heading {
+    color: #3d3d3d;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.main__difficulties-decisions {
+    padding-left: 15%;
+    margin-top: 80px;
+}
+.main__difficulties-decisions-up {
+    display: flex;
+}
+.main__difficulties-decisions-up-card1 {
+    margin-left: 32px;
+}
+.main__difficulties-decisions-up-card1-obch {
+    display: flex;
+}
+.main__difficulties-decisions-up-card1-img {
+    width: 78px;
+    height: 78px;
+}
+.main__difficulties-decisions-up-card1-decision {
+    color: #ff003d;
+    font-size: 16px;
+    font-weight: 700;
+    width: 315px;
+    line-height: 22px;
+    margin-left: 31px;
+}
+.main__difficulties-decisions-up-card1-line {
+    background: #E5E5E5;
+    width: 30px;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-up-card1-description {
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    width: 325px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-up-card2 {
+    margin-left: 32px;
+}
+.main__difficulties-decisions-up-card2-obch {
+    display: flex;
+}
+.main__difficulties-decisions-up-card2-img {
+    width: 78px;
+    height: 78px;
+}
+.main__difficulties-decisions-up-card2-decision {
+    color: #ff003d;
+    font-size: 16px;
+    font-weight: 700;
+    width: 325px;
+    line-height: 22px;
+    margin-left: 31px;
+}
+.main__difficulties-decisions-up-card2-line {
+    background: #E5E5E5;
+    width: 30px;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-up-card2-description {
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    width: 325px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-up-card3 {
+    margin-left: 32px;
+}
+.main__difficulties-decisions-up-card3-obch {
+    display: flex;
+}
+.main__difficulties-decisions-up-card3-img {
+    width: 78px;
+    height: 78px;
+}
+.main__difficulties-decisions-up-card3-decision {
+    color: #ff003d;
+    font-size: 16px;
+    font-weight: 700;
+    width: 325px;
+    line-height: 22px;
+    margin-left: 31px;
+    
+}
+.main__difficulties-decisions-up-card3-line {
+    background: #E5E5E5;
+    width: 30px;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-up-card3-description {
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    width: 325px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+
+
+
+
+
+.main__difficulties-decisions-bottom {
+    display: flex;
+    margin-top: 60px;
+}
+.main__difficulties-decisions-bottom-card4 {
+    margin-left: 32px;
+}
+.main__difficulties-decisions-up-card4-obch {
+    display: flex;
+}
+.main__difficulties-decisions-bottom-card4-img {
+    width: 78px;
+    height: 78px;
+}
+.main__difficulties-decisions-bottom-card4-decision {
+    color: #ff003d;
+    font-size: 16px;
+    font-weight: 700;
+    width: 300px;
+    line-height: 22px;
+    margin-left: 105px;
+    margin-top: -65px;
+}
+.main__difficulties-decisions-bottom-card4-line {
+    background: #E5E5E5;
+    width: 30px;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-bottom-card4-description {
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    width: 325px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-bottom-card5 {
+    margin-left: 32px;
+}
+.main__difficulties-decisions-up-card5-obch {
+    display: flex;
+}
+.main__difficulties-decisions-bottom-card5-img {
+    width: 78px;
+    height: 78px;
+}
+.main__difficulties-decisions-bottom-card5-decision {
+    color: #ff003d;
+    font-size: 16px;
+    font-weight: 700;
+    width: 325px;
+    line-height: 22px;
+    margin-left: 105px;
+    margin-top: -65px;
+}
+.main__difficulties-decisions-bottom-card5-line {
+    background: #E5E5E5;
+    width: 30px;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-bottom-card5-description {
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    width: 325px;
+    line-height: 16px;
+    margin-top: 20px;
+    margin-left: 108px;
+}
+.main__difficulties-decisions-bottom-difficulties-description {
+    color: #3ce800;
+    font-size: 16px;
+    font-weight: 700;
+    width: 300px;
+    line-height: 22px;
+    margin-left: 139px;
+}
+.main__difficulties-btn {
+    margin-top: -100px;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.3);
+    background: linear-gradient(315deg, #3ce800 0%, #00b1d8 100%);
+    border-radius: 5px;
+    width: 409px;
+    height: 68px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    
+    font-weight: 700;
+}
+.main__difficulties-btn1 {
+    border-radius: 5px;
+    width: 409px;
+    height: 68px;
+    position: relative;
+    left: 41%;
+    transform: translate(-50%, 0);
+}
+
+
+
+.footer {
+    background: #1b1b1b;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    margin-top: 100px;
+
+}
+.footer__head {
+    padding-left: 15%;
+    display: flex;
+}
+.footer__head-info {
+    display: block;
+}
+.footer__head-info-description {
+    font-size: 13px;
+    font-weight: 400;
+    width: 325px;
+    line-height: 16px;
+    margin-top: 40px;
+}
+.footer__head-navigation {
+    margin-left: 128px;
+}
+.footer__head-navigation-buttons1-btn1 {
+    border-radius: 5px;
+    width: 118px;
+    height: 42px;
+    background: #3d3d3d;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+}
+
+.footer__head-navigation-buttons1-btn2 {
+    background: #3d3d3d;
+    width: 96px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.footer__head-navigation-buttons1-btn3 {
+    background: #3d3d3d;
+    width: 119px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer__head-navigation-buttons2 {
+    margin-top: 10px;
+}
+.footer__head-navigation-buttons2-btn1 {
+    background: #3d3d3d;
+    width: 213px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.footer__head-navigation-buttons2-btn2 {
+    background: #3d3d3d;
+    width: 265px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.footer__head-navigation-buttons3 {
+    margin-top: 10px;
+}
+.footer__head-navigation-buttons3-btn1 {
+    background: #3d3d3d;
+    width: 282px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.footer__head-navigation-buttons3-btn2 {
+    background: #3d3d3d;
+    width: 238px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.footer__head-navigation-buttons4 {
+    margin-top: 10px;
+}
+.footer__head-navigation-buttons4-btn1 {
+    background: #3d3d3d;
+    width: 165px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.footer__head-navigation-buttons4-btn2 {
+    background: #3d3d3d;
+    width: 201px;
+    height: 42px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.footer__head-contacts {
+    margin-left: 31px;
+    margin-top: -27px;
+}
+.footer__head-contacts-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer__head-contacts-number {
+    color: #3ce800;
+    font-size: 32px;
+    font-weight: 700;
+}
+.footer__head-contacts-address {
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer__head-contacts-email {
+    font-size: 13px;
+    font-weight: 400;
+}
+.footer__head-contacts-email-span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3ce800;
+}
+.footer__head-line {
+    background: #808080;
+    width: 100%;
+    height: 1px;
+    margin-top: 56px;
+}
+.footer__body {
+    display: flex;
+    padding-top: 36px;
+}
+.footer__body-text {
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 15%;
+
+}
+.footer__body-text-span {
+    color: #3ce800;
+}
+.footer__body-information {
+    display: flex;
+    margin-left: 300px;
+}
+.footer__body-information-text1 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #e5e5e5;
+    height: 18px;
+    margin-top: 12px;
+}
+.footer__body-information-text2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #e5e5e5;
+    height: 18px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1650px) {
+    .main__difficulties-decisions-up-card3-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-up-card3-description {
+        width: 250px;
+    }
+
+    .main__difficulties-decisions-up-card1-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-up-card1-description {
+        width: 250px;
+    }
+
+    .main__difficulties-decisions-up-card2-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-up-card2-description {
+        width: 250px;
+    }
+
+    .main__difficulties-decisions-bottom-card4-decision {
+        width: 285px;
+    }
+    .main__difficulties-decisions-bottom-card4-description {
+        width: 250px;
+    }
+
+    .main__difficulties-decisions-bottom-card5-decision {
+        width: 285px;
+    }
+    .main__difficulties-decisions-bottom-card5-description {
+        width: 250px;
+    }
+    .footer__head-navigation {
+        margin-left: 64px;
+    }
+    .footer__body-information {
+        margin-left: 150px;
+    }
+}
+
+
+@media (max-width: 1540px) {
+    .main__privilege-all-up-card1 {
+        width: 360px;
+        height: 190px;
+        padding-left: 20px;
+    }
+    .main__privilege-all-up-card2 {
+        width: 360px;
+        height: 190px;
+        padding-left: 20px;
+    }
+    .main__privilege-all-up-card3 {
+        width: 360px;
+        height: 190px;
+        padding-left: 20px;
+    }
+    .main__privilege-all-bottom-card4 {
+        width: 360px;
+        height: 190px;
+        padding-left: 20px;
+    }
+    .main__privilege-all-bottom-card5 {
+        width: 360px;
+        height: 190px;
+        padding-left: 20px;
+    }
+    .main__privilege-all-bottom-card6 {
+        width: 360px;
+        height: 190px;
+        padding-left: 20px;
+    }
+    .main__section_credit-request-form-text-formular-example1-choose {
+        width: 550px;
+    }
+    .main__section_credit-request-form-text-formular-example2-numer {
+        width: 550px;
+    }
+    .main__section_credit-request-form-text-formular-example2-slider {
+        width: 550px;
+    }
+    .main__section_credit-request-form-text-formular-example3-years {
+        width: 550px;
+    }
+    .main__section_credit-request-form-text-formular-example3-slider {
+        width: 550px;
+    }
+    .main__section_credit-bank {
+        margin-left: 75px;
+    }
+    .main__section_credit-request-title {
+        width: 500px;
+    }
+    .header__head-right-contacts {
+        margin-left: 500px;
+    }
+    .header__head-right-nav {
+       margin-left: 458px;
+    }
+    
+}
+@media (max-width: 1460px) {
+    .header__head-right-contacts {
+        margin-left: 400px;
+    }
+    .header__head-right-nav {
+       margin-left: 358px;
+    }
+    .main__steps-line1 {
+        margin-left: 79px;
+    }
+    .main__steps-line2 {
+        margin-left: 35px;
+    }
+    .main__difficulties-decisions-up-card3 {
+        margin-top: 650px;
+        margin-left: -800px;
+    }
+    .main__difficulties-decisions-bottom-difficulties {
+        margin-top: -305px;
+        margin-left: -410px;
+    }
+    .main__difficulties-decisions-bottom-difficulties-line {
+        height: 150px;
+        margin-left: 150px;
+    }
+    .main__difficulties-decisions-bottom-card5 {
+         margin-top: -650px;
+    }
+    .main__difficulties-decisions-bottom-card4 {
+        margin-top: -650px;
+    }
+    .main__difficulties-decisions-up-card3-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-up-card3-description {
+        width: 250px;
+    }
+
+
+
+
+    .main__difficulties-decisions-up-card1-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-up-card1-description {
+        width: 275px;
+    }
+
+    .main__difficulties-decisions-up-card2-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-up-card2-description {
+        width: 275px;
+    }
+
+    .main__difficulties-decisions-bottom-card4-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-bottom-card4-description {
+        width: 275px;
+    }
+
+    .main__difficulties-decisions-bottom-card5-decision {
+        width: 275px;
+    }
+    .main__difficulties-decisions-bottom-card5-description {
+        width: 275px;
+    }   
+    .main__difficulties-decisions {
+        padding-left: 18%;
+    }
+    
+    .main__section_credit-request-form-text-formular-example1-choose {
+        width: 630px;
+        height: 68px;
+    }
+    .main__section_credit-request-form-text-formular-example2-numer {
+        width: 630px;
+        height: 68px;
+    }
+    .main__section_credit-request-form-text-formular-example2-slider {
+        width: 630px;
+        height: 20px;
+    }
+    .main__section_credit-request-form-text-formular-example3-years {
+        width: 630px;
+        height: 68px;
+    }
+    .main__section_credit-request-form-text-formular-example3-slider {
+        width: 630px;
+        height: 20px;
+    }
+    .main__section_credit-bank {
+        margin-left: -650px;
+        margin-top: 685px;
+
+    }
+    .main__section_credit-request-title {
+        width: 700px;
+    }
+    .main__section_credit {
+        
+        margin-left: 25%;
+       
+    }
+    .footer__head-contacts {
+        display: none;
+    }
+    .footer__body-text {
+        width: 600px;
+    }
+    .footer__body-information {
+        margin-left: 15%;
+    }
+    
+}
+@media (max-width: 1360px) {
+    .main__privilege-all-up-card3 {
+        margin-left: -750px;
+        margin-top: 430px;
+    }
+    .main__privilege-all-bottom-card6 {
+        margin-left: -360px;
+        margin-top: -220px;
+    }
+    .main__privilege-all-bottom-card4 {
+        margin-top: -440px;
+    }
+    .main__privilege-all-bottom-card5 {
+        margin-top: -440px;
+    }
+    .main__privilege {
+        margin-left: 25%;
+    }
+    .main__privilege-title {   
+        width: 700px;
+        text-align: center;
+        margin-right: 25%;
+    }
+    .header__head-right-contacts {
+        margin-left: 250px;
+    }
+    .header__head-right-nav {
+       margin-left: 150px;
+    }
+   
+}
+
+@media (max-width: 1360px) {
+    .main__steps {
+        margin-left: 10%;
+    }
+    .main__steps-title {
+        margin-right: 100px;
+
+    }
+    .main__steps-line1 {
+        margin-left: 34px;
+    }
+    .main__steps-line2 {
+        margin-left: 13px;
+    }
+}
+@media (max-width: 1160px) {
+    .footer__body-information {
+        margin-left: 3%;
+    }
+}
+@media (max-width: 1150px) {
+    .main__difficulties-decisions {
+        padding-left: 10%;
+    }
+    .main__privilege {
+        margin-left: 15%;
+    }
+    .main__privilege-title {   
+        margin-right: 15%;
+    }
+    .header__head-right-contacts {
+        margin-left: 175px;
+    }
+    .header__head-right-nav {
+       margin-left: 75px;
+    }
+    .main__section_credit {
+        margin-left: 15%;
+    }
+}
+@media (max-width: 1024px) {
+    .header__head {
+        margin-left: 12%;
+    }
+    .header__body {
+        margin-left: 12%;
+    }
+    .main__section_credit {
+        margin-left: 12%;
+    }
+    .main__privilege {
+        margin-left: 12%;
+    }
+    .main__steps {
+        margin-left: 12%;
+    }
+    .main__consultation-img {
+        padding-left: 12%;
+    }
+
+    .footer__head {
+        padding-left: 12%;
+    }
+    .footer__body-text {
+        padding-left: 12%;
+        width: 550px;
+    }
+    .footer__body-information {
+        margin-left: 5px;
+    }
+    .main__steps-chat {
+        margin-left: 20px;
+    }
+    .main__steps-contract {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 950px) {
+    .header__head-right-contacts {
+        margin-left: 100px;
+    }
+    .header__head-right-nav {
+       margin-left: 0px;
+    }
+    .main__steps-line2 {
+        margin-left: 5px;
+    }
+    .main__steps-line1 {
+        margin-left: 5px;
+    }
+    .footer__body-text {
+        padding-left: 3%;
+        width: 300px;
+    }
+}
+@media (max-width: 919px) {
+    .header__arrow {
+        margin-top: 125px;
+    }
+}
+@media (max-width: 913px) {
+    .header__arrow {
+        margin-top: 100px;
+    }
+}
+@media (max-width: 900px) {
+    .header__head {
+        margin-left: 3%;
+    }
+    .header__body {
+        margin-left: 3%;
+    }
+    .main__section_credit {
+        margin-left: 3%;
+    }
+    .main__privilege {
+        margin-left: 3%;
+    }
+    .main__steps {
+        margin-left: 3%;
+    }
+    .main__consultation-img {
+        padding-left: 3%;
+    }
+
+    .footer__head {
+        padding-left: 3%;
+    }
+    
+    .main__difficulties-decisions {
+        padding-left: 2%;
+    }
+    .main__difficulties-decisions-up-card1-decision {
+        width: 225px;
+    }
+    .main__difficulties-decisions-up-card1-description {
+        width: 255px;
+    }
+
+    .main__difficulties-decisions-up-card2-decision {
+        width: 225px;
+    }
+    .main__difficulties-decisions-up-card2-description {
+        width: 225px;
+    }
+
+    .main__difficulties-decisions-bottom-card4-decision {
+        width: 225px;
+    }
+    .main__difficulties-decisions-bottom-card4-description {
+        width: 225px;
+    }
+
+    .main__difficulties-decisions-bottom-card5-decision {
+        width: 225px;
+    }
+    .main__difficulties-decisions-bottom-card5-description {
+        width: 225px;
+    }   
+    .main__difficulties-decisions-up-card3-decision {
+        width: 250px;
+    }
+    .main__difficulties-decisions-up-card3-description {
+        width: 225px;
+    }
+    .main__difficulties-decisions-up-card3 {
+        margin-top: 650px;
+        margin-left: -700px;
+    }
+    .main__difficulties-decisions-up-card2 {
+        margin-left: 0px;
+    }
+    .main__difficulties-heading {
+        font-size: 42px;
+    }
+
+}
+@media (max-width: 784px) {
+    .header__head-right-contacts {
+        margin-left: 50px;
+    }
+    .header__head-right-nav {
+       margin-left: -25px;
+    }
+    .main__difficulties-heading {
+        font-size: 34px;
+    }
+}
